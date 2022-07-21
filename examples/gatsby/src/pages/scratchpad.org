@@ -1,0 +1,55 @@
+#+TITLE: Scratchpad
+
+#+attr_html: :width 300
+#+caption: Orga is beautiful.
+[[file:../images/logo.png]]
+
+* Articles
+You can /embed/ react components like [[https://mdxjs.com/][mdx]], but better, with =export jsx block=.
+
+#+begin_src js
+<Box>Tech</Box>
+#+end_src
+
+- [[file:devops-notes.org][DevOps Notes]]
+- [[file:gnss-notes.org][GNSS Notes]]
+
+#+begin_src js
+<Box>Math</Box>
+#+end_src
+
+- [[file:math-roadmap.org][Math Roadmap]]
+
+#+begin_src js
+<Box>Writing</Box>
+#+end_src
+
+- [[file:fiction-writing.org][Fiction Writing Notes]]
+
+* Projects
+
+* Latex Support
+
+\begin{equation}
+x=\sqrt{b}
+\end{equation}
+
+This is a paragraph with latex in it. If $$ a^2=b $$ and \( b=2 \), then the solution must be either $$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2}\].
+
+
+#+begin_src js
+export const query = graphql`
+query MyPagesQuery {
+  pages: allSitePage {
+    nodes {
+      path
+      context {
+        metadata {
+          title
+        }
+      }
+    }
+  }
+}
+`
+#+end_src

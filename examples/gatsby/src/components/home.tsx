@@ -11,8 +11,8 @@ const Home: FC<PageProps> = ({ data, children, ...props }) => {
         <h1>Sitemap</h1>
         <PageList pages={data.pages.nodes} />
         <small style={{ color: 'gray' }}>
-          the sitemap here is generated using data from inline graphql query
-          from the org file
+          Sitemap generated using data from inline GraphQL query within Org
+          file.
         </small>
       </div>
     </Layout>

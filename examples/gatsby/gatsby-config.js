@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'orgajs + gatsby',
-    description: 'this is a website built with org-mode files',
+    title: 'Coding Hermit Blog',
+    description: 'A website for notes and portfolio work.',
   },
   plugins: [
     {
@@ -14,5 +14,6 @@ module.exports = {
         },
       },
     },
+    `gatsby-plugin-react-helmet`,
   ],
 }

@@ -20,6 +20,9 @@ module.exports = {
         paths: ['node_modules/', 'node_modules/@types/'],
       },
     },
+    react: {
+      version: 'detect',
+    },
   },
   rules: {
     'import/no-extraneous-dependencies': ['warn'],

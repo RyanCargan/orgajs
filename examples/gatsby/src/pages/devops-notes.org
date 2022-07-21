@@ -1,0 +1,7 @@
+#+TITLE: DevOps Notes
+#+FILETAGS: :tech:
+[[file:index.org][Return Home]]
+
+* Concepts
+
+* Tools
